@@ -21,7 +21,7 @@ for snils in mass:
     pl = 9
     for num in number:
         checksum += int(num)*pl
-        pl-= 1
+        pl -= 1
     if checksum > 101:
         checksum = checksum % 101
     if checksum == 100 or checksum == 101:
